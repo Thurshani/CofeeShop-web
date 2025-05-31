@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap');
+.about-section {
+  background-color: #000; /* Black background */
+  padding: 80px 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.about-container {
+  display: flex;
+  max-width: 1200px;
+  gap: 50px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.about-image {
+ 
+  flex: 1;
+  min-width: 300px;
+}
+
+.about-image img {
+  margin-top: 80px;
+  width: 90%;
+  height: 350px;
+  border-radius: 12px;
+  margin-left: 40px;
+  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.1); /* Softer shadow for dark bg */
+}
+
+.about-text {
+ margin-top: 80px;
+  flex: 1;
+  min-width: 300px;
+  font-family: 'Poppins', sans-serif;
+  color: white; /* White text */
+  gap:30px
+}
+
+.about-text h2 {
+  font-family: 'Pacifico', cursive;
+  color: #eabf9f; /* Light peach/beige */
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.about-text h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #ccc; /* Slightly lighter than white for readability */
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-text h2 {
+    font-size: 28px;
+  }
+
+  .about-text p {
+    font-size: 16px;
+  }
+}

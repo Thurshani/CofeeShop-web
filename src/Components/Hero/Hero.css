@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.hero {
+  background-image: url('../../assets/imag6.jpg'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding: 140px 40px 40px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1000;
+  padding: 20px 40px;
+  backdrop-filter: blur(10px);
+}
+
+.coffero span {
+  font-size: 36px;
+  font-weight: bold;
+  background: linear-gradient(to right, #b19b42, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.nav-menu li {
+  cursor: pointer;
+}
+
+.anchor-link {
+  text-decoration: none;
+  color: white;
+}
+
+.hero-content {
+  text-align: left;
+  justify-content: left;
+  width: 100%;
+  max-width: 600px;
+  margin-top: 100px;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+  font-family: 'Playfair Display', serif;
+}
+
+.hero-content h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.hero-content p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.hero-action {
+  margin-top: 25px;
+  display: flex;
+  justify-content: left;
+  gap: 25px;
+}
+
+.hero-connect,
+.hero-resume {
+  padding: 15px 30px;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.hero-connect {
+  background-color: #e69500;
+  color: white;
+  border: none;
+}
+
+.hero-resume {
+  border: 2px solid white;
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.hero-connect:hover {
+  color: #eabf9f;
+  border-color: #FFA500;
+}
+
+.hero-resume:hover {
+  background-color: #e69500;
+}
+
+.menu-icons {
+  display: none;
+}
+
+.menu-icon {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  fill: white;
+}
+.nav-menu li:hover .anchor-link,
+  .nav-menu li:active .anchor-link {
+    color: #eabf9f;
+  }
+
+@media (max-width: 768px) {
+  .menu-icons {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.85);
+    position: absolute;
+    top: 70px;
+    right: 0;
+    padding: 12px 20px; /* Reduced padding */
+    z-index: 999;
+  }
+
+  .nav-menu.active {
+    display: flex;
+  }
+
+  .nav-menu li {
+    padding: 4px 0; /* Reduced padding */
+    position: relative;
+  }
+
+  .nav-menu li:not(:last-child)::after {
+    content: "";
+    display: block;
+    height: 1px;
+    background-color: white;
+    margin-top: 4px; /* Reduced margin */
+    opacity: 0.5;
+  }
+
+  .nav-menu li:hover .anchor-link,
+  .nav-menu li:active .anchor-link {
+    color: #eabf9f;
+  }
+
+  .anchor-link {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    display: inline-block;
+    width: 100%;
+  }
+
+  .navbar {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .hero-content {
+    margin-top: 50px;
+  }
+
+  .hero-content h1 {
+    font-size: 30px;
+  }
+
+  .hero-content p {
+    font-size: 16px;
+    padding: 0 20px;
+  }
+
+  .hero-action {
+    flex-direction: column;
+    gap: 15px;
+  }
+}

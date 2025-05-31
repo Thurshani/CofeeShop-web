@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap');
+.menu-section {
+  position: relative;
+  background-image: url('../../assets/image5.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 80px 30px;
+  color: #fff;
+  z-index: 1;
+  text-align: center;
+}
+
+.menu-section::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0);
+  z-index: -1;
+}
+
+.menu-section h3 {
+  font-family: 'Pacifico', cursive;
+  font-size: 26px;
+  color: #eabf9f;
+  margin-bottom: 10px;
+  
+}
+
+.menu-section h2 {
+  font-size: 32px;
+  margin-top: 50px;
+  font-family: 'Pacifico', cursive;
+  color: #eabf9f;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.menu-item {
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 1px solid #eabf9f;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: transform 0.3s ease;
+  text-align: left;
+}
+
+.menu-item:hover {
+  transform: translateY(-5px);
+}
+
+.coffee-icon {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+  flex-shrink: 0;
+  border: 2px solid #eabf9f;
+}
+
+.menu-text {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.menu-text p {
+  font-size: 14px;
+  color: #ddd;
+  margin: 0 0 5px 0;
+}
+
+.menu-text h4 {
+  margin: 0;
+  font-size: 18px;
+  color: #eabf9f;
+  font-weight: 600;
+}
+
+.menu-price {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.menu-price span:first-child {
+  color: #eabf9f;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.menu-section {
+  position: relative;
+  background-image: url('../../assets/image5.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 20px 20px;
+  color: #fff;
+  z-index: 1;
+  text-align: center;
+}
+
+.menu-section::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: -1;
+}
+
+.menu-section h3 {
+  font-family: 'Pacifico', cursive;
+  font-size: 26px;
+  color: #eabf9f;
+  margin-bottom: 10px;
+}
+
+.menu-section h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.menu-item {
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 1px solid #eabf9f;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: transform 0.3s ease;
+  text-align: left;
+}
+
+.menu-item:hover {
+  transform: translateY(-5px);
+}
+
+.coffee-icon {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+  flex-shrink: 0;
+  border: 2px solid #eabf9f;
+}
+
+.menu-text {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.menu-text p {
+  font-size: 14px;
+  color: #ddd;
+  margin: 0 0 5px 0;
+}
+
+.menu-text h4 {
+  margin: 0;
+  font-size: 18px;
+  color: #eabf9f;
+  font-weight: 600;
+}
+
+.menu-price {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.menu-price span:first-child {
+  color: #eabf9f;
+  font-size: 20px;
+  margin-bottom: 5px;
+}

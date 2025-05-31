@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap');
+
+.gallery-section {
+  background-color: #000; /* Black background */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 60px 20px;
+  color: white;
+  text-align: center;
+}
+
+.gallery-title {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  font-family: 'Pacifico', cursive;
+  color: #eabf9f;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 30px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.gallery-item {
+  background-color: rgba(255, 255, 255, 0.05); /* subtle overlay on black */
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  border: 2px solid #eabf9f;
+}
+
+.gallery-item:hover {
+  transform: scale(1.05);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  display: block;
+}
+
+.gallery-caption {
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+}
+
+.promo-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  padding: 60px 20px;
+  gap: 40px;
+  flex-wrap: wrap;
+  color: white;
+}
+
+.promo-image-container {
+  flex: 1;
+  max-width: 600px;
+}
+
+.promo-image {
+  width: 100%;
+  height: 350px;
+  border-radius: 10px;
+}
+
+.promo-card {
+  flex: 1;
+  max-width: 400px;
+  background-color: rgba(30, 30, 30, 0.9);
+  text-align: start;
+  padding: 30px;
+  border-radius: 12px;
+  border: 1px dashed #eabf9f;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.promo-title {
+  font-family: 'Pacifico', cursive;
+  color: #eabf9f;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.promo-offer {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.promo-description {
+  font-size: 0.95rem;
+  margin-bottom: 20px;
+  color: #ccc;
+}
+
+.promo-button {
+  background-color: #eabf9f;
+  border: none;
+  padding: 12px 24px;
+  color: #000;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.promo-button:hover {
+  background-color: #d6a77b;
+}

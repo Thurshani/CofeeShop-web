@@ -1,0 +1,179 @@
+.testimonial-section {
+  background-color: #121212;
+  color: #ffffff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #f4c762;
+}
+
+.testimonial-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.testimonial-card {
+  background-color: #1e1e1e;
+  padding: 25px;
+  border-radius: 10px;
+  max-width: 300px;
+  text-align: left;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.testimonial-text {
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.testimonial-footer {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.testimonial-info h4 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.testimonial-info p {
+  font-size: 0.875rem;
+  margin: 4px 0;
+}
+
+.stars {
+  color: #f4c762;
+  font-size: 1rem;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #121212;
+  color: #fff;
+  padding: 60px 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 30px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.footer-section {
+  flex: 1 1 220px;
+  min-width: 220px;
+}
+
+.footer-logo {
+  font-weight: bold;
+  color: #f4c762;
+}
+
+.footer-section h3 {
+  color: #f4c762;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.footer-section p,
+.footer-section li {
+  margin-top: 0px;
+  line-height: 1.6;
+  color: #ccc;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-section li {
+  margin-bottom: 8px;
+}
+
+.footer-section input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+.footer-section button {
+  background-color: #f4c762;
+  color: #121212;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.footer-section button:hover {
+  background-color: #e0b951;
+}
+
+.social-icons {
+  margin-top: 15px;
+  display: flex;
+  gap: 15px;
+  font-size: 1.2rem;
+}
+
+.social-icons svg {
+  cursor: pointer;
+  color: #ccc;
+  transition: color 0.3s ease;
+}
+
+.social-icons svg:hover {
+  color: #f4c762;
+}
+
+.footer .contact-info p {
+  margin-bottom: 8px;
+}
+
+.footer hr {
+  border: 0.5px solid #333;
+  margin: 40px 40px;
+}
+
+.footer p.copyright {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #888;
+  margin-top: 30px;
+}
+
+/* 🔶 Opening Hours Box */
+.hours-box {
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  border: 1px solid #333;
+}
